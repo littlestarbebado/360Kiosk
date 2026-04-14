@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/PortugalGastronomy.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Continents.unity
+    guid: b0d9ef90ee2eb894f9ebc178b3f41932
+  - enabled: 1
+    path: Assets/Scenes/Continents/EuropePage.unity
+    guid: fb46976d5ed78d444a3dcb1cc4765879
+  - enabled: 1
+    path: Assets/Scenes/Countries/PortugalPage.unity
+    guid: 18dc542d969c5094c81b0229450a5f50
+  - enabled: 1
+    path: Assets/Scenes/Countries/AustraliaPage.unity
+    guid: 36ed6534e298eb9409087e79f427d381
+  - enabled: 1
+    path: Assets/Scenes/Countries/BrazilPage.unity
+    guid: 975001093fbd9994883311eb688e56c0
+  - enabled: 1
+    path: Assets/Scenes/Countries/FijiPage.unity
+    guid: 249a4655a01c47e4c83734bd2b3fc8d8
+  - enabled: 1
+    path: Assets/Scenes/Countries/IndiaPage.unity
+    guid: 351eb0c8587e9cb408759be239655543
+  - enabled: 1
+    path: Assets/Scenes/Countries/ItalyPage.unity
+    guid: c8faef854f6dce64daa8287825e34eb3
+  - enabled: 1
+    path: Assets/Scenes/Countries/MexicoPage.unity
+    guid: cae4940efceef7f4db4a0c4b780a6a1f
+  - enabled: 1
+    path: Assets/Scenes/Countries/MoroccoPage.unity
+    guid: 7288b1b3ced360b47bc27f6e80bb8174
+  - enabled: 1
+    path: Assets/Scenes/Countries/SAPage.unity
+    guid: 32bae1d10858fb340ada86196f3c9743
+  - enabled: 1
+    path: Assets/Scenes/Countries/SKPage.unity
+    guid: fafff756f8ac49e4184ac75ab43a983d
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/AustraliaGastronomy.unity
+    guid: ba1f34fc61572dd438b9714eaf83ca6f
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/BrazilGastronomy.unity
+    guid: 091d43d65c2b17b40b6b7907c7fdb629
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/FijiGastronomy.unity
+    guid: b132b24829d0ad6428f7f9e9debfd7e0
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/IndiaGastronomy.unity
+    guid: dd23d0a26f24e50469786b20cfb0e9bc
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/ItalyGastronomy.unity
+    guid: 61201d10ab6009d4a9daf90b45d3c1b6
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/KoreaGastronomy.unity
+    guid: bb33b71bbc620a740a1b84be7b8de67c
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/MexicoGastronomy.unity
+    guid: 74adfadf7712ff4459c3d4820a528778
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/MoroccoGastronomy.unity
+    guid: 6a8276f360ead1045bfbb66341ea3983
+  - enabled: 1
+    path: Assets/Scenes/Gastronomy/SAGastronomy.unity
+    guid: 9aafb001862036443bb96208769d5f78
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

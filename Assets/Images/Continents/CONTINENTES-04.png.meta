@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 6e1dc859f649cb04886c573fb3d058df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5583584552061285316
+    second: CONTINENTES-04_0
+  - first:
+      213: -6288955576847065455
+    second: CONTINENTES-04_1
+  - first:
+      213: 1512744248353317561
+    second: CONTINENTES-04_2
+  - first:
+      213: -7311226519223476084
+    second: CONTINENTES-04_3
+  - first:
+      213: -277455560606379039
+    second: CONTINENTES-04_4
+  - first:
+      213: 1225094200174841522
+    second: CONTINENTES-04_5
+  - first:
+      213: -5378847871382982474
+    second: CONTINENTES-04_6
+  - first:
+      213: 7596773011272760323
+    second: CONTINENTES-04_7
+  - first:
+      213: 6361973687592368742
+    second: CONTINENTES-04_8
+  - first:
+      213: -3510783385595014427
+    second: CONTINENTES-04_9
+  - first:
+      213: -5774908187904667494
+    second: CONTINENTES-04_10
+  - first:
+      213: 8513232200681880528
+    second: CONTINENTES-04_11
+  - first:
+      213: -397902606247657700
+    second: CONTINENTES-04_12
+  - first:
+      213: -2060400592351426254
+    second: CONTINENTES-04_13
+  - first:
+      213: -9103362395179016489
+    second: CONTINENTES-04_14
+  - first:
+      213: -489229697214041992
+    second: CONTINENTES-04_15
+  - first:
+      213: -2166558107409377805
+    second: CONTINENTES-04_16
+  - first:
+      213: -5530600888734075482
+    second: CONTINENTES-04_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CONTINENTES-04_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 436
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3b8f62190ec7d40800000000000000
+      internalID: 5583584552061285316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 444
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e91d1293429b8a0800000000000000
+      internalID: -6288955576847065455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 433
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b26d1701e85ef410800000000000000
+      internalID: 1512744248353317561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 228
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e441a73e498a90800000000000000
+      internalID: -7311226519223476084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 402
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3991d33a7462cf0800000000000000
+      internalID: -277455560606379039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 348
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be00d92fa8600110800000000000000
+      internalID: 1225094200174841522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 349
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0f95dfb5e7a55b0800000000000000
+      internalID: -5378847871382982474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 290
+        width: 190
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cff28edc82d6960800000000000000
+      internalID: 7596773011272760323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 335
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a33579c554a4850800000000000000
+      internalID: 6361973687592368742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 329
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2144a9c11374fc0800000000000000
+      internalID: -3510783385595014427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_10
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 320
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90927199976bdfa0800000000000000
+      internalID: -5774908187904667494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 309
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db7f0cd493152670800000000000000
+      internalID: 8513232200681880528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 305
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ff76310bd5a7af0800000000000000
+      internalID: -397902606247657700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 35
+        width: 349
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23983e5e39cf763e0800000000000000
+      internalID: -2060400592351426254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 270
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de94bd122c5aa180800000000000000
+      internalID: -9103362395179016489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_15
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 266
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8703cf3be28e539f0800000000000000
+      internalID: -489229697214041992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_16
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f51f9651e6dee1e0800000000000000
+      internalID: -2166558107409377805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTINENTES-04_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5bb884bcb5f33b0800000000000000
+      internalID: -5530600888734075482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CONTINENTES-04_0: 5583584552061285316
+      CONTINENTES-04_1: -6288955576847065455
+      CONTINENTES-04_10: -5774908187904667494
+      CONTINENTES-04_11: 8513232200681880528
+      CONTINENTES-04_12: -397902606247657700
+      CONTINENTES-04_13: -2060400592351426254
+      CONTINENTES-04_14: -9103362395179016489
+      CONTINENTES-04_15: -489229697214041992
+      CONTINENTES-04_16: -2166558107409377805
+      CONTINENTES-04_17: -5530600888734075482
+      CONTINENTES-04_2: 1512744248353317561
+      CONTINENTES-04_3: -7311226519223476084
+      CONTINENTES-04_4: -277455560606379039
+      CONTINENTES-04_5: 1225094200174841522
+      CONTINENTES-04_6: -5378847871382982474
+      CONTINENTES-04_7: 7596773011272760323
+      CONTINENTES-04_8: 6361973687592368742
+      CONTINENTES-04_9: -3510783385595014427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
