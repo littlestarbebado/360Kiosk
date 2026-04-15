@@ -72,6 +72,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Gastronomy/MexicoGastronomy.unity
     guid: 74adfadf7712ff4459c3d4820a528778
   - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Africa.unity
+    guid: 83e1335109202b64d9acbd59f9a50f56
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Australia.unity
+    guid: 16f410860380a7947bbdda1085cc39c8
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Brasil.unity
+    guid: 4ef19f5efc8469b4d9966b5a9e34645f
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_CoreiadoSul.unity
+    guid: 8760827949e23964aadacc957cc1c8f5
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Fiji.unity
+    guid: 7ad4342ed8d198644b527908edfd7a8c
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_India.unity
+    guid: c81cd904ac85c844abe9a6af00533f57
+  - enabled: 1
+    path: "Assets/Scenes/Tourism/Tourism_It\xE1lia.unity"
+    guid: 6e016891344096e4381d8ead6dc171a3
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Marrocos.unity
+    guid: 4267d7c014739c241af175d2d29bceba
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Mexico.unity
+    guid: 5a846d67b158b8e4c91346fa6b719d07
+  - enabled: 1
+    path: Assets/Scenes/Tourism/Tourism_Portugal.unity
+    guid: 0ae30aba089a9814b935608d30501d09
+  - enabled: 1
     path: Assets/Scenes/Gastronomy/MoroccoGastronomy.unity
     guid: 6a8276f360ead1045bfbb66341ea3983
   - enabled: 1

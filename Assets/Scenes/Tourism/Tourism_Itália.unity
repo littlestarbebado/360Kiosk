@@ -119,6 +119,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &188539329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5857465493369501144, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &258386272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3116302110085756358, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &568467518
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +160,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1879223944}
+  - {fileID: 1119542288}
   m_Father: {fileID: 976986872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -221,16 +231,28 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &639283678 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3598275021384468929, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
+--- !u!114 &682625689 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4245705165558801016, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &838930174 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5857465493369501144, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &893434635 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3224057259118151003, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &976986869
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +383,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -369,34 +390,8 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1 &1286685044 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3116302110085756358, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1409446699 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7057155742737845047, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1868232339 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5018894446393271076, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &1879223943
+  m_Version: 2
+--- !u!1001 &1119542287
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -406,29 +401,29 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tFazer snorkeling\r\n\u2022\tVisitar cenotes\r\n\u2022\tLevar
-        protetor solar\r\n\u2022\tReservar excurs\xF5es\r\n\u2022\tEvitar \xE9poca
-        de chuva\r\n"
+      value: "\u2022\tAlugar carro para explorar\r\n\u2022\tVisitar vin\xEDcolas
+        locais\r\n\u2022\tParar em miradouros\r\n\u2022\tMelhor \xE9poca primavera/outono\r\n\u2022\tVisitar
+        pequenas aldeias"
       objectReference: {fileID: 0}
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: 2385888554518009790, guid: 78bf26b9a11a6da459c5d7690d976c99, type: 3}
+      objectReference: {fileID: 1641409006701331298, guid: 46537b4ac3af24240ac6177cd817240f, type: 3}
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: Riviera Maya
+      value: Paisagem da Toscana
       objectReference: {fileID: 0}
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: Quintana Roo
+      value: Toscana
       objectReference: {fileID: 0}
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: 910600959474622782, guid: 6f4bd4ad7de0fd542840f3b1594a7af1, type: 3}
+      objectReference: {fileID: 7808243355779266408, guid: 21439aac7d9f6474083c51796fd75853, type: 3}
     - target: {fileID: 188234952779165249, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Regi\xE3o costeira com praias e resorts."
+      value: Colinas verdes com vinhas e aldeias medievais.
       objectReference: {fileID: 0}
     - target: {fileID: 490816067956503203, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -437,7 +432,7 @@ PrefabInstance:
     - target: {fileID: 490816067956503203, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1879223945}
+      objectReference: {fileID: 1119542289}
     - target: {fileID: 490816067956503203, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenTips
@@ -449,36 +444,36 @@ PrefabInstance:
     - target: {fileID: 676914109717755517, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2385888554518009790, guid: 78bf26b9a11a6da459c5d7690d976c99, type: 3}
+      objectReference: {fileID: 1641409006701331298, guid: 46537b4ac3af24240ac6177cd817240f, type: 3}
     - target: {fileID: 945839013880603068, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2244616556311879574, guid: b799567082f840d4a868e9bc39c7f310, type: 3}
+      objectReference: {fileID: 5077912310357297914, guid: 735a10dc0c061dc49b72ef9713571655, type: 3}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tMelhor \xE9poca inverno seco\r\n\u2022\tFazer atividades aqu\xE1ticas\r\n\u2022\tUsar
-        protetor solar\r\n\u2022\tReservar hotel com anteced\xEAncia\r\n\u2022\tEvitar
-        \xE9poca de furac\xF5es\r\n"
+      value: "\u2022\tUsar vaporetto em vez de g\xF4ndola (mais barato)\r\n\u2022\tEvitar
+        \xE9poca de mar\xE9 alta\r\n\u2022\tExplorar ruas longe da pra\xE7a principal\r\n\u2022\tVisitar
+        ao nascer ou p\xF4r do sol\r\n\u2022\tLevar mapa offline"
       objectReference: {fileID: 0}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: -3605767547270086889, guid: 45794ff246c23fa428239c870a228a75, type: 3}
+      objectReference: {fileID: 2120437404582060056, guid: dfbce2fc0bca4844e9b61e63ac7a3dd4, type: 3}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: "Praia de Canc\xFAn"
+      value: Canais de Veneza
       objectReference: {fileID: 0}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: "Canc\xFAn"
+      value: Veneza
       objectReference: {fileID: 0}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: 4311672357917807873, guid: 31991c44eae10214fa5a2e62e9a92f2d, type: 3}
+      objectReference: {fileID: 8450165021620214055, guid: 5796558ad2590c8438b99bd3f43c8ae6, type: 3}
     - target: {fileID: 993208544092989525, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Praia tur\xEDstica com \xE1gua azul e resorts."
+      value: "Rede de canais com g\xF4ndolas e edif\xEDcios hist\xF3ricos."
       objectReference: {fileID: 0}
     - target: {fileID: 1718606186859522980, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Pivot.x
@@ -562,222 +557,231 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1879209372872477750, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tVisitar museus principais\r\n\u2022\tUsar metro para desloca\xE7\xE3o\r\n\u2022\tEvitar
-        tr\xE2nsito intenso\r\n\u2022\tExperimentar comida local\r\n\u2022\tLevar
-        \xE1gua\r\n"
+      value: "\u2022\tSubir \xE0 c\xFApula para vista panor\xE2mica\r\n\u2022\tReservar
+        entrada com anteced\xEAncia\r\n\u2022\tVisitar centro hist\xF3rico a p\xE9\r\n\u2022\tEvitar
+        horas de maior calor\r\n\u2022\tFotografar da Piazza del Duomo\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: -3591936318221764525, guid: db263eaf55dd45f439e489b2ca686a58, type: 3}
+      objectReference: {fileID: 8838119889800674342, guid: ce95349d1ebfb5e459acaff171822918, type: 3}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: "Cidade do M\xE9xico"
+      value: "Catedral de Floren\xE7a"
       objectReference: {fileID: 0}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: "Cidade do M\xE9xico"
+      value: Toscana
       objectReference: {fileID: 0}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: -6951398753350566479, guid: 2324907fee95c5343b35503b69a821b8, type: 3}
+      objectReference: {fileID: 3229057795169938295, guid: 520bb80a2605f504aa08335dd9257f04, type: 3}
     - target: {fileID: 1881585695752730319, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Capital com museus e arquitetura hist\xF3rica."
+      value: "Catedral renascentista com a famosa c\xFApula de Brunelleschi."
       objectReference: {fileID: 0}
     - target: {fileID: 1987562273796672366, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Name
-      value: "Tourism_M\xE9xico"
+      value: "Tourism_It\xE1lia"
       objectReference: {fileID: 0}
     - target: {fileID: 1987562273796672366, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tChegar cedo\r\n\u2022\tSubir com cuidado\r\n\u2022\tLevar \xE1gua\r\n\u2022\tUsar
-        chap\xE9u\r\n\u2022\tFotografar do topo\r\n"
+      value: "\u2022\tSubir ao terra\xE7o da catedral\r\n\u2022\tVisitar cedo\r\n\u2022\tExplorar
+        pra\xE7a Duomo\r\n\u2022\tComprar bilhete combinado\r\n\u2022\tEvitar filas
+        ao meio-dia"
       objectReference: {fileID: 0}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: 2244616556311879574, guid: b799567082f840d4a868e9bc39c7f310, type: 3}
+      objectReference: {fileID: 5077912310357297914, guid: 735a10dc0c061dc49b72ef9713571655, type: 3}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: "Pir\xE2mides de Teotihuac\xE1n"
+      value: "Catedral de Mil\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: "Cidade do M\xE9xico"
+      value: "Mil\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: -2047811438316414393, guid: bd26199d627a25a45894a804eaba998d, type: 3}
+      objectReference: {fileID: 2191877468966225635, guid: 98d620ce0fc36c54b974b109bcc86ab9, type: 3}
     - target: {fileID: 2400425270353776967, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Complexo arqueol\xF3gico com pir\xE2mides do Sol e da Lua."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2422831777870360507, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-      propertyPath: m_Type
-      value: 0
+      value: "Catedral g\xF3tica com detalhes arquitet\xF3nicos impressionantes."
       objectReference: {fileID: 0}
     - target: {fileID: 2422831777870360507, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5894759273879696652, guid: 2230b1087665c0749b743b262c3df6eb, type: 3}
+      objectReference: {fileID: 8419424832872159162, guid: 2e1ad960578994a47be8a3a739297d7a, type: 3}
+    - target: {fileID: 2790250869655800527, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1119542289}
+    - target: {fileID: 2790250869655800527, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2795455665200874015, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_text
-      value: "Chich\xE9n Itz\xE1"
+      value: Coliseu de Roma
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188038871376450369, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3224057259118151003, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_text
-      value: "Antiga cidade maia com a famosa pir\xE2mide Kukulc\xE1n."
+      value: "Antigo anfiteatro romano s\xEDmbolo da cidade de Roma."
       objectReference: {fileID: 0}
     - target: {fileID: 3686738228526352990, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_text
-      value: "Turismo do M\xE9xico"
+      value: "Turismo da It\xE1lia"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805123355310595953, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3961488987641430726, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3591936318221764525, guid: db263eaf55dd45f439e489b2ca686a58, type: 3}
+      objectReference: {fileID: 8838119889800674342, guid: ce95349d1ebfb5e459acaff171822918, type: 3}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: map
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tVisitar cedo\r\n\u2022\tLevar chap\xE9u e \xE1gua\r\n\u2022\tUsar
-        protetor solar\r\n\u2022\tContratar guia local\r\n\u2022\tEvitar horas de
-        maior calor"
+      value: "\u2022\tComprar bilhetes online antecipadamente\r\n\u2022\tVisitar
+        cedo para evitar multid\xF5es\r\n\u2022\tCombinar com F\xF3rum Romano e Palatino\r\n\u2022\tLevar
+        \xE1gua no ver\xE3o\r\n\u2022\tUsar sapatos confort\xE1veis"
       objectReference: {fileID: 0}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: 5894759273879696652, guid: 2230b1087665c0749b743b262c3df6eb, type: 3}
+      objectReference: {fileID: 8419424832872159162, guid: 2e1ad960578994a47be8a3a739297d7a, type: 3}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: "Chich\xE9n Itz\xE1"
+      value: Coliseu de Roma
       objectReference: {fileID: 0}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: "Yucat\xE1n"
+      value: Roma
       objectReference: {fileID: 0}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: -1447238895180278376, guid: 34e9f37c29f8e3745b930874310e1e61, type: 3}
+      objectReference: {fileID: 3502265631738961580, guid: 49ae279d943512c4680fc5ca9ace0a21, type: 3}
     - target: {fileID: 4044457517831662695, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Antiga cidade maia com a famosa pir\xE2mide Kukulc\xE1n."
+      value: "Antigo anfiteatro romano s\xEDmbolo da cidade de Roma."
       objectReference: {fileID: 0}
     - target: {fileID: 4245705165558801016, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5894759273879696652, guid: 2230b1087665c0749b743b262c3df6eb, type: 3}
+      objectReference: {fileID: 8419424832872159162, guid: 2e1ad960578994a47be8a3a739297d7a, type: 3}
     - target: {fileID: 4245705165558801016, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tVisitar cedo\r\n\u2022\tLevar protetor solar\r\n\u2022\tCombinar
-        com praia\r\n\u2022\tUsar sapatos confort\xE1veis\r\n\u2022\tFotografar vista
-        do mar\r\n"
+      value: "\u2022\tChegar cedo para menos filas\r\n\u2022\tTirar fotos criativas
+        na pra\xE7a\r\n\u2022\tSubir \xE0 torre com reserva\r\n\u2022\tVisitar a
+        catedral ao lado\r\n\u2022\tEvitar horas de maior movimento"
       objectReference: {fileID: 0}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: -5704288354114105886, guid: c9d8289b7fe8f384a95dc0d82e115c70, type: 3}
+      objectReference: {fileID: -7032157493842014388, guid: 9fa363b8ecc955140b064ad6b6712c50, type: 3}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: "Ru\xEDnas de Tulum"
+      value: Torre de Pisa
       objectReference: {fileID: 0}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: Tulum
+      value: Toscana
       objectReference: {fileID: 0}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: -3002606497895949792, guid: e0ff7f9256ab83049b9d9356b9993fc2, type: 3}
+      objectReference: {fileID: 6558802645010999603, guid: 511b25e5a39ed6140817a5eb7915a113, type: 3}
     - target: {fileID: 4347007528812395684, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Ru\xEDnas maias junto ao mar Caribe."
+      value: "Descri\xE7\xE3o: Torre inclinada mundialmente famosa."
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4555197211586226939, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4671251032275435838, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_RaycastTarget
@@ -786,88 +790,89 @@ PrefabInstance:
     - target: {fileID: 4688058491280767423, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5704288354114105886, guid: c9d8289b7fe8f384a95dc0d82e115c70, type: 3}
+      objectReference: {fileID: -7032157493842014388, guid: 9fa363b8ecc955140b064ad6b6712c50, type: 3}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tFazer passeio de barco\r\n\u2022\tVer arco natural\r\n\u2022\tLevar
-        protetor solar\r\n\u2022\tExplorar praias\r\n\u2022\tReservar atividades\r\n"
+      value: "\u2022\tConduzir com cuidado nas estradas estreitas\r\n\u2022\tVisitar
+        na primavera ou ver\xE3o\r\n\u2022\tParar em Positano\r\n\u2022\tLevar protetor
+        solar\r\n\u2022\tUsar barco para ver a costa\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: -3238518140063550295, guid: f078a935bd7b0524b85043dc3481cf4e, type: 3}
+      objectReference: {fileID: -6484605982277025748, guid: 6e4948db7d6f2d540be1f48d8c70a703, type: 3}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: Cabo San Lucas
+      value: Costa Amalfitana
       objectReference: {fileID: 0}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: Baja California Sur
+      value: "Camp\xE2nia"
       objectReference: {fileID: 0}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: 3864764089460845343, guid: 11b1b487691dacf45809c7bf538cf48f, type: 3}
+      objectReference: {fileID: -8278779019742091883, guid: a092eecfa9aa673479ca9e0e64409f9a, type: 3}
     - target: {fileID: 4792004341317600694, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Destino costeiro com forma\xE7\xF5es rochosas."
+      value: "Costa com fal\xE9sias dram\xE1ticas e vilas coloridas."
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5422725202702704204, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5763618648333264548, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5774516326587637511, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 487637671185001113, guid: e5758c725bf32df40b8d4816d3bf5916, type: 3}
+      objectReference: {fileID: -8206394741261807314, guid: 61ff380fe98df9848a331788588b274a, type: 3}
     - target: {fileID: 6145116737509185250, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1879223945}
+      objectReference: {fileID: 1119542289}
     - target: {fileID: 6145116737509185250, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Back
@@ -882,182 +887,215 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tVisitar mercados locais\r\n\u2022\tExperimentar gastronomia\r\n\u2022\tPassear
-        no centro hist\xF3rico\r\n\u2022\tVer festivais culturais\r\n\u2022\tTirar
-        fotos coloridas\r\n"
+      value: "\u2022\tUsar comboio entre vilas\r\n\u2022\tFazer trilhos pedestres\r\n\u2022\tLevar
+        \xE1gua\r\n\u2022\tEvitar \xE9poca alta\r\n\u2022\tFotografar ao p\xF4r do
+        sol"
       objectReference: {fileID: 0}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: 487637671185001113, guid: e5758c725bf32df40b8d4816d3bf5916, type: 3}
+      objectReference: {fileID: -8206394741261807314, guid: 61ff380fe98df9848a331788588b274a, type: 3}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: 'Cidade de Oaxaca  '
+      value: Cinque Terre
       objectReference: {fileID: 0}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: Oaxaca
+      value: "Lig\xFAria"
       objectReference: {fileID: 0}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: -4525750419167119427, guid: 9a9869ef5cf28ef4d9da44a1d1b23f14, type: 3}
+      objectReference: {fileID: -8384797429195162866, guid: 88ee442e312699845919358cc9962d48, type: 3}
     - target: {fileID: 6339510777731502505, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: Cidade colonial com cultura tradicional.
+      value: Conjunto de cinco vilas costeiras coloridas.
       objectReference: {fileID: 0}
     - target: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapPanel
       value: 
-      objectReference: {fileID: 639283678}
+      objectReference: {fileID: 1635788357}
     - target: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mainPanel
       value: 
-      objectReference: {fileID: 838930174}
+      objectReference: {fileID: 188539329}
+    - target: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: mapScreen
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tipsPanel
       value: 
-      objectReference: {fileID: 1286685044}
+      objectReference: {fileID: 258386272}
+    - target: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: tipsScreen
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7423683360574729498, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tips
-      value: "\u2022\tVisitar pra\xE7a central\r\n\u2022\tFotografar arquitetura\r\n\u2022\tExplorar
-        arredores\r\n\u2022\tVisitar cedo\r\n\u2022\tExperimentar comida local\r\n"
+      value: "\u2022\tVestir roupa adequada (ombros cobertos)\r\n\u2022\tReservar
+        Museus do Vaticano\r\n\u2022\tChegar cedo\r\n\u2022\tSubir \xE0 c\xFApula
+        da bas\xEDlica\r\n\u2022\tEvitar domingos movimentados"
       objectReference: {fileID: 0}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: image
       value: 
-      objectReference: {fileID: -3448921696333643943, guid: a07f8cbcf7adc1b4782e1d11bdaa3a13, type: 3}
+      objectReference: {fileID: 813089164301356300, guid: fe74a014ebbdd294d996fdee65b24939, type: 3}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: title
-      value: Catedral de Guadalajara
+      value: Cidade do Vaticano
       objectReference: {fileID: 0}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: location
-      value: Guadalajara
+      value: Vaticano
       objectReference: {fileID: 0}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapImage
       value: 
-      objectReference: {fileID: 3065983340060425461, guid: dbf4b5f958d75454584f63e64310e503, type: 3}
+      objectReference: {fileID: 1100467218365772741, guid: 6e4f00a71b96b444cbaada2aa047681f, type: 3}
     - target: {fileID: 7515584880488631304, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: description
-      value: "Catedral hist\xF3rica no centro da cidade."
+      value: "Pequeno estado com a Bas\xEDlica de S\xE3o Pedro e museus."
       objectReference: {fileID: 0}
     - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: tipsText
       value: 
-      objectReference: {fileID: 1409446699}
+      objectReference: {fileID: 1588160893}
+    - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: titleText
+      value: 
+      objectReference: {fileID: 1369752737}
     - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: mapDisplay
       value: 
-      objectReference: {fileID: 1868232339}
+      objectReference: {fileID: 2072254644}
+    - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: locationText
+      value: 
+      objectReference: {fileID: 1699769001}
+    - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: highlightImage
+      value: 
+      objectReference: {fileID: 682625689}
+    - target: {fileID: 7684505716464472407, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: descriptionText
+      value: 
+      objectReference: {fileID: 893434635}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757189242037287793, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8304999994307279544, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -520
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8592765456272845403, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8592765456272845403, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3238518140063550295, guid: f078a935bd7b0524b85043dc3481cf4e, type: 3}
+      objectReference: {fileID: -6484605982277025748, guid: 6e4948db7d6f2d540be1f48d8c70a703, type: 3}
+    - target: {fileID: 8592765456272845403, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592765456272845403, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8592765456272845403, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853249926779156101, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -310
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9013157057066074080, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1070,7 +1108,7 @@ PrefabInstance:
     - target: {fileID: 9013157057066074080, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1879223945}
+      objectReference: {fileID: 1119542289}
     - target: {fileID: 9013157057066074080, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1088,29 +1126,13 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9019170098738503559, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-      propertyPath: m_Type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9019170098738503559, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3448921696333643943, guid: a07f8cbcf7adc1b4782e1d11bdaa3a13, type: 3}
-    - target: {fileID: 9019170098738503559, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-      propertyPath: m_PixelsPerUnitMultiplier
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 9129830020164061420, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-      propertyPath: m_Type
-      value: 2
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 813089164301356300, guid: fe74a014ebbdd294d996fdee65b24939, type: 3}
     - target: {fileID: 9129830020164061420, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3605767547270086889, guid: 45794ff246c23fa428239c870a228a75, type: 3}
-    - target: {fileID: 9129830020164061420, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-      propertyPath: m_PixelsPerUnitMultiplier
-      value: 3
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2120437404582060056, guid: dfbce2fc0bca4844e9b61e63ac7a3dd4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7021162137641236109, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
@@ -1118,15 +1140,15 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
---- !u!224 &1879223944 stripped
+--- !u!224 &1119542288 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1718606186859522980, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
+  m_PrefabInstance: {fileID: 1119542287}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1879223945 stripped
+--- !u!114 &1119542289 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6971779348969064479, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
-  m_PrefabInstance: {fileID: 1879223943}
+  m_PrefabInstance: {fileID: 1119542287}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -1134,8 +1156,137 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5231f4fef3c1a4a817e97300e04335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1369752737 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2795455665200874015, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1588160893 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7057155742737845047, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1635788357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3598275021384468929, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1699769001 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1607110583916803668, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1877608195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877608198}
+  - component: {fileID: 1877608197}
+  - component: {fileID: 1877608196}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1877608196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877608195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1877608197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877608195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1877608198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877608195}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072254644 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5018894446393271076, guid: d953eb6a86daa044faf7c421bce1e144, type: 3}
+  m_PrefabInstance: {fileID: 1119542287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 976986872}
+  - {fileID: 1877608198}
