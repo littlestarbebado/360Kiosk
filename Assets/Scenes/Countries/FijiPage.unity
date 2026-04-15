@@ -1104,8 +1104,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4122064257230519999, guid: 08246706a3d985241947dd1b8d3e1015, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1262079941}
   m_SourcePrefab: {fileID: 100100000, guid: 08246706a3d985241947dd1b8d3e1015, type: 3}
+<<<<<<< HEAD
+--- !u!1 &1262079939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4122064257230519999, guid: 08246706a3d985241947dd1b8d3e1015, type: 3}
+  m_PrefabInstance: {fileID: 1262079938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1262079940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4888942463980746411, guid: 08246706a3d985241947dd1b8d3e1015, type: 3}
+  m_PrefabInstance: {fileID: 1262079938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262079939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1262079941
+=======
 --- !u!1 &1311863920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,12 +1167,17 @@ RectTransform:
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311863922
+>>>>>>> 694b2141b668eeeff49f2fee65efaf02338f345c
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1262079939}
+=======
   m_GameObject: {fileID: 1311863920}
+>>>>>>> 694b2141b668eeeff49f2fee65efaf02338f345c
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -1184,7 +1211,11 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD
+  m_TargetGraphic: {fileID: 1262079940}
+=======
   m_TargetGraphic: {fileID: 1311863923}
+>>>>>>> 694b2141b668eeeff49f2fee65efaf02338f345c
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1197,6 +1228,11 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+<<<<<<< HEAD
+          m_StringArgument: FijiMonumentos
+          m_BoolArgument: 0
+        m_CallState: 2
+=======
           m_StringArgument: OceaniaPage
           m_BoolArgument: 0
         m_CallState: 2
@@ -1238,6 +1274,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311863920}
   m_CullTransparentMesh: 1
+>>>>>>> 694b2141b668eeeff49f2fee65efaf02338f345c
 --- !u!1 &1346807765
 GameObject:
   m_ObjectHideFlags: 0

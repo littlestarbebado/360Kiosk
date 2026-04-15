@@ -48,6 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TurismoScene.unity
     guid: 801c9320f8ae61e478e6ed097b7363f5
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Continents/AfricaPage.unity
     guid: 5e9dddf3130e150448b3c93f47f13033
   - enabled: 1
@@ -59,6 +60,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Continents/OceaniaPage.unity
     guid: 7dc0450f35e159848be02b29db611282
+=======
+    path: Assets/Scenes/Monumentos/AustraliaMonumentos.unity
+    guid: 7d04b877900c84aed9103329db591420
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/AfricadoSulMonumentos.unity
+    guid: 0f7bb1c3a5d044ffbb19da3753c666a8
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/BrasilMonumentos.unity
+    guid: f1d9a67853de54d93985f494b772771f
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/FijiMonumentos.unity
+    guid: 1dbd66bd4beb545fb90db73269c510a4
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/IndiaMonumentos.unity
+    guid: dd93fc30b79354928bb4098b5f2a5cfc
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/ItaliaMonumentos.unity
+    guid: a236d937ed33a4b4c8116f6a6951f70c
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/JapaoMonumentos.unity
+    guid: 1ecd675a004614ae8b9fc87d4032e7f0
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/MarrocosMonumentos.unity
+    guid: 6d1f52cad231b45fe815c91d8654467f
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/MexicoMonumentos.unity
+    guid: f1364bbccd466441592afae4cb77082a
+  - enabled: 1
+    path: Assets/Scenes/Monumentos/PortugalMonumentos.unity
+    guid: 4b654d436df8547238b6517b66595042
+>>>>>>> f08684780bda19e03894e62d0628ac46bf5fab6c
   - enabled: 1
     path: Assets/Scenes/Countries/SKPage.unity
     guid: fafff756f8ac49e4184ac75ab43a983d
