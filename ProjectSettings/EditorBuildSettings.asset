@@ -48,6 +48,18 @@ EditorBuildSettings:
     path: Assets/Scenes/TurismoScene.unity
     guid: 801c9320f8ae61e478e6ed097b7363f5
   - enabled: 1
+    path: Assets/Scenes/Continents/AfricaPage.unity
+    guid: 5e9dddf3130e150448b3c93f47f13033
+  - enabled: 1
+    path: Assets/Scenes/Continents/AmericaPage.unity
+    guid: d4ba4d8a5b065ac42b80745703197c65
+  - enabled: 1
+    path: Assets/Scenes/Continents/AsiaPage.unity
+    guid: 28b44fd4093029c42a71d37293fc06ba
+  - enabled: 1
+    path: Assets/Scenes/Continents/OceaniaPage.unity
+    guid: 7dc0450f35e159848be02b29db611282
+  - enabled: 1
     path: Assets/Scenes/Countries/SKPage.unity
     guid: fafff756f8ac49e4184ac75ab43a983d
   - enabled: 1
