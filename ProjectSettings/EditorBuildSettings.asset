@@ -42,6 +42,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Countries/SAPage.unity
     guid: 32bae1d10858fb340ada86196f3c9743
   - enabled: 1
+    path: Assets/Scenes/TurismoPortugal.unity
+    guid: c8122e3595ee9a6448111c8b6dcf3944
+  - enabled: 1
+    path: Assets/Scenes/TurismoScene.unity
+    guid: 801c9320f8ae61e478e6ed097b7363f5
+  - enabled: 1
     path: Assets/Scenes/Countries/SKPage.unity
     guid: fafff756f8ac49e4184ac75ab43a983d
   - enabled: 1
